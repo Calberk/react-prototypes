@@ -9,8 +9,8 @@ export default props => {
                 <div className="card-block">
                     <h4 className="card-title">{firstName + ' ' + lastName}</h4>
                     <div className="card-text">
-                        <p><b>Phone: {phone}</b></p>
-                        <p><b>Email: {email}</b></p>
+                        <p><b>Phone:</b> {phone}</p>
+                        <p><b>Email:</b> {email}</p>
                     </div>
                 </div>
             </div>

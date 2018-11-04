@@ -4,8 +4,6 @@ import Field from './fields';
 class ContactForm extends Component{
     constructor(props){
         super(props);
-        this.handleInputChange = this.handleInputChange.bind(this);
-        this.handleSubmit = this.handleSubmit.bind(this);
 
         this.state={
             form: {
@@ -14,7 +12,9 @@ class ContactForm extends Component{
                 phone: '',
                 email: '',
             }
-        }
+        };6
+        this.handleInputChange = this.handleInputChange.bind(this);
+        this.handleSubmit = this.handleSubmit.bind(this);
     }
 
     handleInputChange(event){
@@ -29,11 +29,12 @@ class ContactForm extends Component{
     handleSubmit(event){
         event.preventDefault();
         console.log(this.state.form);
+        this.props.add(this.state.form)
     }
 
 
     render(){
-        const{firstName, lastName, phone, email} = this.state.form
+        const{firstName, lastName, phone, email} = this.state.form;
         return (
             <form onSubmit={this.handleSubmit}>
                 <Field name="firstName" label="First Name" type="text" value={firstName} onChange={this.handleInputChange}/>
