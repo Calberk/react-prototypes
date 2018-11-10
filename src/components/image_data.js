@@ -14,22 +14,21 @@ export default
         {
         src: About,
         style: {
-            left: '50%',
+            left: '40%',
             transform: 'rotate(-10deg)',
-            onhover: 'rotate(+20deg)',
         },
         },
         {
         src: Add,
         style: {
-            left: '28%',
+            left: '20%',
             transform: 'rotate(6deg)',
         },
         },
         {
         src: Archer,
         style: {
-            right: '15%',
+            right: '20%',
             transform: 'rotate(-9deg)',
         },
         },
@@ -44,16 +43,16 @@ export default
         {
         src: Halloween,
         style: {
-            left: '10%',
-            top: '30%',
+            left: '5%',
+            top: '40%',
             transform: 'rotate(-20deg)',
         },
         },
         {
         src: Image,
         style: {
-            right: '45%',
-            top: '30%',
+            right: '40%',
+            top: '70%',
             transform: 'rotate(2deg)',
         },
         },
@@ -61,13 +60,15 @@ export default
         src: Pexel,
         style: {
             left: '5%',
+            top: '10%',
             transform: 'rotate(25deg)',
         },
         },
         {
         src: Prince,
         style: {
-            right: '4%',
+            left: '20%',
+            top: '55%',
             transform: 'rotate(12deg)',
         },
         },
@@ -75,7 +76,7 @@ export default
         src: Princess,
         style: {
             right: '25%',
-            top: '20%',
+            top: '52%',
             transform: 'rotate(-18deg)',
         },
         },
